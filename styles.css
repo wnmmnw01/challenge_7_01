@@ -1,0 +1,44 @@
+body,
+html {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+body {
+  position: relative;
+  height: 1500px;
+  background-color: rgb(126, 214, 223);
+}
+.text {
+  font-size: 60pt;
+  font-weight: bold;
+  color: white;
+  position: absolute;
+  top: 200px;
+  left: 50px;
+}
+.box_red {
+  height: 150px;
+  width: 100%;
+  position: fixed;
+  background-color: rgb(255, 121, 121);
+  top: 0;
+}
+.box_green {
+  position: fixed;
+  top: 120px;
+  right: 335px;
+  background-color: rgb(186, 220, 88);
+  height: 60px;
+  width: 200px;
+}
+.box_yellow {
+  z-index: -1;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: rgb(255, 204, 0);
+  width: 30%;
+  height: 1340px;
+  border: gray solid 5px;
+}
